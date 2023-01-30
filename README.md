@@ -1,4 +1,6 @@
-Faction
+
+#### Faction 
+---
 You are presented with a map of a kingdom. Empty land on this map is depicted as ‘.’ (without the quotes), and mountains are depicted by ‘#’. This kingdom has factions whose armies are represented by lowercase letters in the map. Two armies of the same letter belong to the same faction.
 
 Armies can go up, down, left, and right, but cannot travel through mountains. A region is an area enclosed by mountains. From this it can be deduced that armies cannot travel between different regions. A region is said to be controlled by a faction if it’s the only faction with an army in that region. If there are at least two armies from different factions in a region, then that region is said to be contested. Your task is to determine how many regions each faction controls and how many contested regions there are.
@@ -13,10 +15,14 @@ For each test case, output one line of the form “Case C:” (without the quote
 
 See the sample output below for details.
 
-Constraints
-1 ≤ T ≤ 100 1 ≤ N ≤ 100 1 ≤ M ≤ 100
+##### Constraints
 
-Sample Input
+1 ≤ T ≤ 100
+1 ≤ N ≤ 100
+1 ≤ M ≤ 100
+##### Sample Input
+
+```
 2
 2
 2
@@ -36,7 +42,10 @@ Sample Input
 .#.x..#..#.....
 .######.c#.....
 ......####.....
-Sample Output
+```
+
+##### Sample Output
+```
 Case 1:
 a 1
 contested 0
@@ -46,4 +55,6 @@ b 1
 c 2
 x 2
 contested 1
- 
+```
+
+[Answer Fraction](/fraction/Main.java)
